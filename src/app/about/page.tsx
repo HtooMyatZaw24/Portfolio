@@ -5,6 +5,7 @@ import Card from "../components/ui/pagelayout/Card";
 import { Image } from "../components/ui/images";
 import Biography from "../components/about/Biography";
 import SkillsProgress from "../components/skills/SkillsProgress";
+import Hobbies from "../components/about/Hobbies";
 
 const About: NextPage = () => {
   return (
@@ -24,6 +25,8 @@ const About: NextPage = () => {
       </Card>
 
       <SkillsProgress />
+
+      <Hobbies />
     </>
   );
 };

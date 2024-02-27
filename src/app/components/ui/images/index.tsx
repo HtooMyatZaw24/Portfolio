@@ -1,8 +1,15 @@
 import NextImage from "next/image";
-import { FaHtml5 } from "react-icons/fa";
+import { FaHtml5,FaLaptopCode,FaMusic } from "react-icons/fa";
+import { IoGameControllerOutline } from "react-icons/io5";
+import { PiVideo } from "react-icons/pi";
+
 
 export const Icons = {
   html: FaHtml5,
+  code: FaLaptopCode,
+  game: IoGameControllerOutline,
+  movie: PiVideo,
+  music: FaMusic,
 };
 
 type Image = {

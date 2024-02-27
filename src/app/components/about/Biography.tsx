@@ -4,7 +4,7 @@ import { Box, Text } from "@radix-ui/themes";
 const Biography = () => {
   return (
     <Box>
-      <Text size="6" className="text-yellow font-semibold">
+      <Text size="6" className="text-white font-semibold">
         Biography
       </Text>
 
