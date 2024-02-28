@@ -1,7 +1,8 @@
 import NextImage from "next/image";
-import { FaHtml5,FaLaptopCode,FaMusic } from "react-icons/fa";
-import { IoGameControllerOutline } from "react-icons/io5";
+import { FaHtml5,FaLaptopCode,FaMusic,FaFacebook,FaLinkedin,FaInstagram } from "react-icons/fa";
+import { IoGameControllerOutline,IoMail } from "react-icons/io5";
 import { PiVideo } from "react-icons/pi";
+
 
 
 export const Icons = {
@@ -10,7 +11,12 @@ export const Icons = {
   game: IoGameControllerOutline,
   movie: PiVideo,
   music: FaMusic,
+  facebook: FaFacebook,
+  linkedIn: FaLinkedin,
+  mail: IoMail,
+  instagram: FaInstagram,
 };
+
 
 type Image = {
   src: string;
